@@ -14,10 +14,23 @@ module Portfolio
       	email = params["email"]
       	message = params["message"]
 
-      	conn = PG.connect(dbname: "portfolio")
-		conn.exec_params("INSERT INTO contact_data (name, email, message) VALUES ($1, $2, $3)", [name, email, message])
- 		@contact_submitted = true     
- 		erb :contact
+            conn.exec_params("INSERT INTO contact_data (name, email, message) VALUES ($1, $2, $3)", [name, email, message])
+    @contact_submitted = true     
+    erb :contact
+
+        private
+
+  def conn 
+  if ENV["RACK_ENV"] == 'production'
+  PG.connect(
+    dbname: ENV["POSTGRES_DB"],
+    host: ENV["POSTGRES_HOST"],
+    password: ENV["POSTGRES_PASSWORD"],
+    user: ENV["POSTGRES_USER"]
+  )
+else
+  PG.connect(dbname: "portfolio")
+end
 
 
       end
