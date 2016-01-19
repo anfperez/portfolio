@@ -4,7 +4,7 @@ if ENV["RACK_ENV"] == 'production'
   conn = PG.connect(
     dbname: ENV["POSTGRES_DB"],
     host: ENV["POSTGRES_HOST"],
-    password: ENV["POSTGRES_PASS"],
+    password: ENV["POSTGRES_PASSWORD"],
     user: ENV["POSTGRES_USER"]
   )
 else
