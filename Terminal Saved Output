@@ -1,0 +1,990 @@
+Last login: Tue Jan 19 11:33:51 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.6.2
+Homebrew 0.9.5 (git revision 2689; last commit 2015-11-23)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+node v5.1.0
+psql (PostgreSQL) 9.4.5
+------------------------------------------
+type unwelcome to remove this message
+angelaperez ~
+$ pwd
+/Users/angelaperez
+angelaperez ~
+$ cd desktop
+angelaperez ~/desktop
+$ ls
+10345_513614485326234_1756976169_n.jpg
+2000px-Star_Wars_Logo.svg.png
+Coding Practice/
+Descendants (2015).mp4*
+Git_Practice/
+IW Cesky Krumlov.jpg
+Mike Angela Engagement/
+New LOL Pics/
+Panel Pics/
+R Series Long JSK.jpg
+Screen Shot 2015-11-12 at 12.40.55 AM.png
+Screen Shot 2016-01-07 at 5.23.58 PM.png
+Screen Shot 2016-01-07 at 5.44.21 PM.png
+Screen Shot 2016-01-07 at 5.52.52 PM.png
+Screen Shot 2016-01-18 at 11.11.18 PM.png
+Sublime Text 2.app/
+Terminal.app/
+WDI Files/
+WDI Projects/
+World/
+angela darth maul.jpg
+angela_luke.jpg
+angela_slave leia.jpg
+fundamentals/
+index.html
+l0GBR1Z.jpg
+leia.jpg
+lptRDD7.png
+me.jpg
+munari4.jpg
+save_the_date_Mike_Angela.png
+smiley.png
+angelaperez ~/desktop
+$ cd WDI Projects
+-bash: cd: WDI: No such file or directory
+angelaperez ~/desktop
+$ cd WDI\ Projects/
+angelaperez ~/desktop/WDI Projects
+$ ls
+portfolio/
+angelaperez ~/desktop/WDI Projects
+$ subl . portfolio/
+angelaperez ~/desktop/WDI Projects
+$ cd portfolio/
+angelaperez ~/desktop/WDI Projects/portfolio
+$ rackup
+[2016-01-19 14:08:23] INFO  WEBrick 1.3.1
+[2016-01-19 14:08:23] INFO  ruby 2.2.3 (2015-08-18) [x86_64-darwin15]
+[2016-01-19 14:08:23] INFO  WEBrick::HTTPServer#start: pid=13533 port=9292
+WARN: tilt autoloading 'tilt/erb' in a non thread-safe way; explicit require 'tilt/erb' suggested.
+::1 - - [19/Jan/2016:14:08:33 -0500] "GET / HTTP/1.1" 200 3419 0.0164
+::1 - - [19/Jan/2016:14:08:33 -0500] "GET /js/jquery-1.11.3.min.js HTTP/1.1" 200 95957 0.0024
+::1 - - [19/Jan/2016:14:08:33 -0500] "GET /css/style.css HTTP/1.1" 200 4994 0.0012
+::1 - - [19/Jan/2016:14:08:34 -0500] "GET /js/script.js HTTP/1.1" 200 963 0.0012
+::1 - - [19/Jan/2016:14:08:34 -0500] "GET /img/drawing1.png HTTP/1.1" 304 - 0.0006
+::1 - - [19/Jan/2016:14:08:34 -0500] "GET /img/slide-3.jpg HTTP/1.1" 304 - 0.0005
+::1 - - [19/Jan/2016:14:08:34 -0500] "GET /img/kyoto.jpg HTTP/1.1" 200 136687 0.0288
+::1 - - [19/Jan/2016:14:08:34 -0500] "GET /img/palawan.jpg HTTP/1.1" 200 100728 0.0220
+::1 - - [19/Jan/2016:14:09:19 -0500] "GET /contact HTTP/1.1" 200 2019 0.0039
+::1 - - [19/Jan/2016:14:10:22 -0500] "GET / HTTP/1.1" 200 3426 0.0028
+::1 - - [19/Jan/2016:14:10:22 -0500] "GET /js/script.js HTTP/1.1" 304 - 0.0010
+::1 - - [19/Jan/2016:14:10:22 -0500] "GET /js/jquery-1.11.3.min.js HTTP/1.1" 304 - 0.0006
+::1 - - [19/Jan/2016:14:10:22 -0500] "GET /css/style.css HTTP/1.1" 304 - 0.0005
+^C[2016-01-19 14:10:31] INFO  going to shutdown ...
+[2016-01-19 14:10:31] INFO  WEBrick::HTTPServer#start done.
+angelaperez ~/desktop/WDI Projects/portfolio
+$ rackup
+[2016-01-19 14:10:34] INFO  WEBrick 1.3.1
+[2016-01-19 14:10:34] INFO  ruby 2.2.3 (2015-08-18) [x86_64-darwin15]
+[2016-01-19 14:10:34] INFO  WEBrick::HTTPServer#start: pid=13610 port=9292
+WARN: tilt autoloading 'tilt/erb' in a non thread-safe way; explicit require 'tilt/erb' suggested.
+::1 - - [19/Jan/2016:14:10:35 -0500] "GET / HTTP/1.1" 200 3426 0.0239
+::1 - - [19/Jan/2016:14:10:35 -0500] "GET /js/jquery-1.11.3.min.js HTTP/1.1" 304 - 0.0013
+::1 - - [19/Jan/2016:14:10:35 -0500] "GET /js/script.js HTTP/1.1" 304 - 0.0013
+::1 - - [19/Jan/2016:14:10:35 -0500] "GET /css/style.css HTTP/1.1" 304 - 0.0015
+::1 - - [19/Jan/2016:14:11:07 -0500] "GET / HTTP/1.1" 200 3430 0.0035
+::1 - - [19/Jan/2016:14:11:07 -0500] "GET /css/style.css HTTP/1.1" 304 - 0.0009
+::1 - - [19/Jan/2016:14:11:07 -0500] "GET /js/jquery-1.11.3.min.js HTTP/1.1" 304 - 0.0005
+::1 - - [19/Jan/2016:14:11:07 -0500] "GET /js/script.js HTTP/1.1" 304 - 0.0005
+::1 - - [19/Jan/2016:14:11:24 -0500] "GET / HTTP/1.1" 200 3430 0.0037
+::1 - - [19/Jan/2016:14:11:24 -0500] "GET /js/jquery-1.11.3.min.js HTTP/1.1" 304 - 0.0012
+::1 - - [19/Jan/2016:14:11:24 -0500] "GET /css/style.css HTTP/1.1" 304 - 0.0006
+::1 - - [19/Jan/2016:14:11:24 -0500] "GET /js/script.js HTTP/1.1" 304 - 0.0006
+::1 - - [19/Jan/2016:14:11:46 -0500] "GET /contact HTTP/1.1" 200 2030 0.0039
+::1 - - [19/Jan/2016:14:14:02 -0500] "GET / HTTP/1.1" 200 3433 0.0041
+::1 - - [19/Jan/2016:14:14:03 -0500] "GET /contact HTTP/1.1" 200 2033 0.0032
+^C[2016-01-19 14:18:18] INFO  going to shutdown ...
+[2016-01-19 14:18:18] INFO  WEBrick::HTTPServer#start done.
+angelaperez ~/desktop/WDI Projects/portfolio
+$ cd ..
+angelaperez ~/desktop/WDI Projects
+$ cd ..
+angelaperez ~/desktop
+$ ls
+10345_513614485326234_1756976169_n.jpg
+2000px-Star_Wars_Logo.svg.png
+Coding Practice/
+Descendants (2015).mp4*
+Git_Practice/
+IW Cesky Krumlov.jpg
+Mike Angela Engagement/
+New LOL Pics/
+Panel Pics/
+R Series Long JSK.jpg
+Screen Shot 2015-11-12 at 12.40.55 AM.png
+Screen Shot 2016-01-07 at 5.23.58 PM.png
+Screen Shot 2016-01-07 at 5.44.21 PM.png
+Screen Shot 2016-01-07 at 5.52.52 PM.png
+Screen Shot 2016-01-18 at 11.11.18 PM.png
+Sublime Text 2.app/
+Terminal.app/
+WDI Files/
+WDI Projects/
+World/
+angela darth maul.jpg
+angela_luke.jpg
+angela_slave leia.jpg
+fundamentals/
+index.html
+l0GBR1Z.jpg
+leia.jpg
+lptRDD7.png
+me.jpg
+munari4.jpg
+save_the_date_Mike_Angela.png
+smiley.png
+angelaperez ~/desktop
+$ cd code/wdi/magnum
+-bash: cd: code/wdi/magnum: No such file or directory
+angelaperez ~/desktop
+$ cd ..
+angelaperez ~
+$ ls
+Applications/		Music/			course_resources/
+Desktop/		Pictures/		example/
+Documents/		Projects/		funny_things/
+Downloads/		Public/			index.html
+GA-blog/		README.md		permissions/
+Library/		WDI/			u1_introduction/
+Movies/			code/
+angelaperez ~
+$ cd code/wdi/magnum
+angelaperez ~/code/wdi/magnum on master[$]
+$ ls
+README.md		readme2.md		u4_project_2/
+animals.sql		u1_introduction/	wdi.sql
+course_resources/	u2_project_1/
+employees.sql		u3_the_server/
+angelaperez ~/code/wdi/magnum on master[$]
+$ cd u3_the_server/
+angelaperez ~/code/wdi/magnum/u3_the_server on master[$]
+$ ls
+README.md		d29_sinatra/		d34_rest_and_rspec/
+d17_ruby/		d30_calendar/		d35_sinatra_review/
+d26_class_time/		d31_PSQL/		d37_deploy_auth/
+d27_ruby/		d32_restful_routing/	vacation/
+d28_ruby_modules/	d33_PG_practice/
+angelaperez ~/code/wdi/magnum/u3_the_server on master[$]
+$ cd d37_deploy_auth/
+angelaperez ~/code/wdi/magnum/u3_the_server/d37_deploy_auth on master[$]
+$ git remote -v
+origin	git@github.com:anfperez/magnum.git (fetch)
+origin	git@github.com:anfperez/magnum.git (push)
+upstream	git@github.com:ga-students/magnum.git (fetch)
+upstream	git@github.com:ga-students/magnum.git (push)
+angelaperez ~/code/wdi/magnum/u3_the_server/d37_deploy_auth on master[$]
+$ cd ..
+angelaperez ~/code/wdi/magnum/u3_the_server on master[$]
+$ ls
+README.md		d29_sinatra/		d34_rest_and_rspec/
+d17_ruby/		d30_calendar/		d35_sinatra_review/
+d26_class_time/		d31_PSQL/		d37_deploy_auth/
+d27_ruby/		d32_restful_routing/	vacation/
+d28_ruby_modules/	d33_PG_practice/
+angelaperez ~/code/wdi/magnum/u3_the_server on master[$]
+$ cd ..
+angelaperez ~/code/wdi/magnum on master[$]
+$ ls 
+README.md		readme2.md		u4_project_2/
+animals.sql		u1_introduction/	wdi.sql
+course_resources/	u2_project_1/
+employees.sql		u3_the_server/
+angelaperez ~/code/wdi/magnum on master[$]
+$ ls
+README.md		readme2.md		u4_project_2/
+animals.sql		u1_introduction/	wdi.sql
+course_resources/	u2_project_1/
+employees.sql		u3_the_server/
+angelaperez ~/code/wdi/magnum on master[$]
+$ cd ..
+angelaperez ~/code/wdi
+$ cd ../..
+angelaperez ~
+$ ls
+Applications/		Music/			course_resources/
+Desktop/		Pictures/		example/
+Documents/		Projects/		funny_things/
+Downloads/		Public/			index.html
+GA-blog/		README.md		permissions/
+Library/		WDI/			u1_introduction/
+Movies/			code/
+angelaperez ~
+$ cd desktop
+angelaperez ~/desktop
+$ ls
+10345_513614485326234_1756976169_n.jpg
+2000px-Star_Wars_Logo.svg.png
+Coding Practice/
+Descendants (2015).mp4*
+Git_Practice/
+IW Cesky Krumlov.jpg
+Mike Angela Engagement/
+New LOL Pics/
+Panel Pics/
+R Series Long JSK.jpg
+Screen Shot 2015-11-12 at 12.40.55 AM.png
+Screen Shot 2016-01-07 at 5.23.58 PM.png
+Screen Shot 2016-01-07 at 5.44.21 PM.png
+Screen Shot 2016-01-07 at 5.52.52 PM.png
+Screen Shot 2016-01-18 at 11.11.18 PM.png
+Sublime Text 2.app/
+Terminal.app/
+WDI Files/
+WDI Projects/
+World/
+angela darth maul.jpg
+angela_luke.jpg
+angela_slave leia.jpg
+fundamentals/
+index.html
+l0GBR1Z.jpg
+leia.jpg
+lptRDD7.png
+me.jpg
+munari4.jpg
+save_the_date_Mike_Angela.png
+smiley.png
+angelaperez ~/desktop
+$ cd WDI\ Projects/
+angelaperez ~/desktop/WDI Projects
+$ ls
+portfolio/
+angelaperez ~/desktop/WDI Projects
+$ cat ~/.ssh/id_rsa.pub | pbcopy
+angelaperez ~/desktop/WDI Projects
+$ cat ~/.ssh/id_rsa.pub | pbcopyssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCVWabU462GbSQCRLHivANJBADjtnAIpJ8C7ybas9XrMzILbEaA8IPaePMgh5eKZ2FEobRT1+kw9P/UYU3MnhYQX5g7VKJjj9P2OS7nhrN0zrySfyHh1aX0dDlrVgZNohMykgVGuqiIztdLtK2Q4uzRbcHC3ZoBFyu79qETHi25cRy1DIlKFd28EO52CLgI01XFoel9INHw8HDqIPfjbpG0aSmsNpX3LecKMtlNFwELeMRWX/cdjeuw6yxACeCLOf5IowNcF2SbFYkrsW2V9ZhGC6OCgMfSTzTjg5dIP2pINBeh5cxM4Mq3Lh+RhKlAip451FYAmCE1Q1c1XNc/qk5B angelaperez@Angelas-MacBook-Pro.local
+-bash: pbcopyssh-rsa: command not found
+angelaperez ~/desktop/WDI Projects
+$ heroku login
+Would you like to submit Heroku CLI usage information to better improve the CLI user experience?
+[y/N] n
+heroku-cli: Installing Toolbelt v4... done
+For more information on Toolbelt v4: https://github.com/heroku/heroku-cli
+heroku-cli: Adding dependencies... done
+heroku-cli: Installing core plugins... done
+Enter your Heroku credentials.
+Email: anfperez@gmail.com
+Password (typing will be hidden): 
+Logged in as anfperez@gmail.com
+angelaperez ~/desktop/WDI Projects
+$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+angelaperez ~/desktop/WDI Projects
+$ git init
+Initialized empty Git repository in /Users/angelaperez/Desktop/WDI Projects/.git/
+angelaperez ~/desktop/WDI Projects on master[?]
+$ ls
+portfolio/
+angelaperez ~/desktop/WDI Projects on master[?]
+$ rm -rf .git
+.git/branches
+.git/config
+.git/description
+.git/HEAD
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/update.sample
+.git/hooks
+.git/info/exclude
+.git/info
+.git/objects/info
+.git/objects/pack
+.git/objects
+.git/refs/heads
+.git/refs/tags
+.git/refs
+.git
+angelaperez ~/desktop/WDI Projects
+$ cd portfolio
+angelaperez ~/desktop/WDI Projects/portfolio
+$ ls
+Gemfile		config.ru	lib/		public/		views/
+Gemfile.lock	favicon.ico	mockup.png	server.rb
+angelaperez ~/desktop/WDI Projects/portfolio
+$ git init
+Initialized empty Git repository in /Users/angelaperez/Desktop/WDI Projects/portfolio/.git/
+angelaperez ~/desktop/WDI Projects/portfolio on master[?]
+$ heroku git:remote -a angela-portfolio
+Would you like to submit Heroku CLI usage information to better improve the CLI user experience?
+[y/N] n
+set git remote heroku to https://git.heroku.com/angela-portfolio.git
+angelaperez ~/desktop/WDI Projects/portfolio on master[?]
+$ git add . 
+angelaperez ~/desktop/WDI Projects/portfolio on master[+]
+$ git commit -m "created project"
+[master (root-commit) 85705b9] created project
+ Committer: Angela Perez <angelaperez@Angelas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 22 files changed, 559 insertions(+)
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 config.ru
+ create mode 100644 favicon.ico
+ create mode 100644 lib/seeds.rb
+ create mode 100644 mockup.png
+ create mode 100644 public/css/style.css
+ create mode 100644 public/img/Drawing.png
+ create mode 100644 public/img/Drawing1.png
+ create mode 100644 public/img/kyoto.jpg
+ create mode 100644 public/img/logo.png
+ create mode 100644 public/img/newlogo.png
+ create mode 100644 public/img/palawan.jpg
+ create mode 100644 public/img/slide-1.jpg
+ create mode 100644 public/img/slide-2.jpg
+ create mode 100644 public/img/slide-3.jpg
+ create mode 100644 public/js/jquery-1.11.3.min.js
+ create mode 100644 public/js/script.js
+ create mode 100644 server.rb
+ create mode 100644 views/contact.erb
+ create mode 100644 views/index.erb
+ create mode 100644 views/layout.erb
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku master
+Counting objects: 30, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (30/30), 1.35 MiB | 538.00 KiB/s, done.
+Total 30 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rack
+remote: -----> Using Ruby version: ruby-2.0.0
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Fetching gem metadata from https://rubygems.org/..........
+remote:        Fetching version metadata from https://rubygems.org/..
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+remote:        Installing backports 3.6.7
+remote:        Installing coderay 1.1.0
+remote:        Installing method_source 0.8.2
+remote:        Installing multi_json 1.11.2
+remote:        Installing pg 0.18.4
+remote:        Installing slop 3.6.0
+remote:        Installing pry 0.10.3
+remote:        Installing rack 1.6.4
+remote:        Installing rack-protection 1.5.3
+remote:        Installing rack-test 0.6.3
+remote:        Installing tilt 2.0.2
+remote:        Installing sinatra 1.4.6
+remote:        Installing sinatra-contrib 1.4.6
+remote:        Using bundler 1.9.7
+remote:        Bundle complete! 5 Gemfile dependencies, 14 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (17.75s)
+remote:        Cleaning up the bundler cache.
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.0.0'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web
+remote: 
+remote: -----> Compressing... done, 18.6MB
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://angela-portfolio.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy.... done.
+To https://git.heroku.com/angela-portfolio.git
+ * [new branch]      master -> master
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ ls
+Gemfile		config.ru	lib/		public/		views/
+Gemfile.lock	favicon.ico	mockup.png	server.rb
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ cd lib
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ ls
+seeds.rb
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ subl . seeds
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku run irb
+Running irb on angela-portfolio... up, run.7744
+irb(main):001:0> ENV["POSTGRES_USER"]
+=> nil
+irb(main):002:0> ENV
+=> {"DATABASE_URL"=>"postgres://auomwwwhxckskt:n4PB6i0XynTUlA6-OeBnkowjDP@ec2-54-227-253-228.compute-1.amazonaws.com:5432/daagc9vipvgi0p", "SHLVL"=>"1", "HOME"=>"/app", "PORT"=>"9787", "PS1"=>"\\[\\033[01;34m\\]\\w\\[\\033[00m\\] \\[\\033[01;32m\\]$ \\[\\033[00m\\]", "_"=>"/app/bin/irb", "TERM"=>"xterm-256color", "COLUMNS"=>"80", "RACK_ENV"=>"production", "PATH"=>"/app/bin:/app/vendor/bundle/bin:/app/vendor/bundle/ruby/2.0.0/bin:/usr/local/bin:/usr/bin:/bin", "LANG"=>"en_US.UTF-8", "PWD"=>"/app", "GEM_PATH"=>"/app/vendor/bundle/ruby/2.0.0:", "LINES"=>"24", "DYNO"=>"run.7744"}
+irb(main):003:0> ENV["POSTGRES_USER"]
+=> nil
+irb(main):004:0> exit
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config:set POSTGRES_DB = daagc9vipvgi0p
+ ▸    POSTGRES_DB is invalid. Must be in the format FOO=bar.
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config:set POSTGRES_DB=daagc9vipvgi0p
+Setting config vars and restarting angela-portfolio... done
+POSTGRES_DB: daagc9vipvgi0p
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config::set POSTRES_HOST=ec2-54-227-253-228.compute-1.amazonaws.com
+ !    `config::set` is not a heroku command.
+ !    Perhaps you meant `config:set`.
+ !    See `heroku help` for a list of available commands.
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config:set POSTGRES_HOST=ec2-54-227-253-228.compute-1.amazonaws.com
+Setting config vars and restarting angela-portfolio... done
+POSTGRES_HOST: ec2-54-227-253-228.compute-1.amazonaws.com
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config:set POSTGRES_USER=auomwwwhxckskt
+Setting config vars and restarting angela-portfolio... done
+POSTGRES_USER: auomwwwhxckskt
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ heroku config:set POSTGRES_PASSWORD=n4PB6i0XynTUlA6-OeBnkowjDP
+Setting config vars and restarting angela-portfolio... done
+POSTGRES_PASSWORD: n4PB6i0XynTUlA6-OeBnkowjDP
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master
+$ ls
+seeds.rb
+angelaperez ~/desktop/WDI Projects/portfolio/lib on master[!]
+$ cd ..
+angelaperez ~/desktop/WDI Projects/portfolio on master[!]
+$ ls
+Gemfile		config.ru	lib/		public/		views/
+Gemfile.lock	favicon.ico	mockup.png	server.rb
+angelaperez ~/desktop/WDI Projects/portfolio on master[!]
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lib/seeds.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+angelaperez ~/desktop/WDI Projects/portfolio on master[!]
+$ git add .
+angelaperez ~/desktop/WDI Projects/portfolio on master[+]
+$ git commit -m "added production db details"
+[master 425d7d6] added production db details
+ Committer: Angela Perez <angelaperez@Angelas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 511 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Using set buildpack heroku/ruby
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rack
+remote: -----> Using Ruby version: ruby-2.0.0
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+remote:        Using backports 3.6.7
+remote:        Using coderay 1.1.0
+remote:        Using method_source 0.8.2
+remote:        Using multi_json 1.11.2
+remote:        Using pg 0.18.4
+remote:        Using slop 3.6.0
+remote:        Using pry 0.10.3
+remote:        Using rack 1.6.4
+remote:        Using rack-protection 1.5.3
+remote:        Using rack-test 0.6.3
+remote:        Using tilt 2.0.2
+remote:        Using sinatra 1.4.6
+remote:        Using sinatra-contrib 1.4.6
+remote:        Using bundler 1.9.7
+remote:        Bundle complete! 5 Gemfile dependencies, 14 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (0.26s)
+remote:        Cleaning up the bundler cache.
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.0.0'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web
+remote: 
+remote: -----> Compressing... done, 18.6MB
+remote: -----> Launching...
+remote:        Released v10
+remote:        https://angela-portfolio.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/angela-portfolio.git
+   85705b9..425d7d6  master -> master
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku run ruby lib/seeds.rb
+Running ruby lib/seeds.rb on angela-portfolio... up, run.8192
+/app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `initialize': fe_sendauth: no password supplied (PG::ConnectionBad)
+	from /app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `new'
+	from /app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `connect'
+	from lib/seeds.rb:4:in `<main>'
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku run ruby lib/seeds.rb
+Running ruby lib/seeds.rb on angela-portfolio... up, run.9619
+/app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `initialize': fe_sendauth: no password supplied (PG::ConnectionBad)
+	from /app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `new'
+	from /app/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/lib/pg.rb:45:in `connect'
+	from lib/seeds.rb:4:in `<main>'
+angelaperez ~/desktop/WDI Projects/portfolio on master[!]
+$ ls
+Gemfile		config.ru	lib/		public/		views/
+Gemfile.lock	favicon.ico	mockup.png	server.rb
+angelaperez ~/desktop/WDI Projects/portfolio on master[!]
+$ git add .
+angelaperez ~/desktop/WDI Projects/portfolio on master[+]
+$ git commit -m "added stuff"
+[master 8033f27] added stuff
+ Committer: Angela Perez <angelaperez@Angelas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku maste
+error: src refspec maste does not match any.
+error: failed to push some refs to 'https://git.heroku.com/angela-portfolio.git'
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 350 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Using set buildpack heroku/ruby
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rack
+remote: -----> Using Ruby version: ruby-2.0.0
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+remote:        Using backports 3.6.7
+remote:        Using coderay 1.1.0
+remote:        Using method_source 0.8.2
+remote:        Using multi_json 1.11.2
+remote:        Using pg 0.18.4
+remote:        Using slop 3.6.0
+remote:        Using pry 0.10.3
+remote:        Using rack 1.6.4
+remote:        Using rack-protection 1.5.3
+remote:        Using rack-test 0.6.3
+remote:        Using tilt 2.0.2
+remote:        Using sinatra 1.4.6
+remote:        Using sinatra-contrib 1.4.6
+remote:        Using bundler 1.9.7
+remote:        Bundle complete! 5 Gemfile dependencies, 14 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (0.24s)
+remote:        Cleaning up the bundler cache.
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.0.0'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web
+remote: 
+remote: -----> Compressing... done, 18.6MB
+remote: -----> Launching...
+remote:        Released v11
+remote:        https://angela-portfolio.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy.... done.
+To https://git.heroku.com/angela-portfolio.git
+   425d7d6..8033f27  master -> master
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku run ruby lib/seeds.rb
+Running ruby lib/seeds.rb on angela-portfolio... up, run.3396
+NOTICE:  table "contact_data" does not exist, skipping
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku pg:psql
+---> Connecting to DATABASE_URL
+psql (9.4.5)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+angela-portfolio::DATABASE=> \q
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku pg:psql --app angela-portfolio
+---> Connecting to DATABASE_URL
+psql (9.4.5)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+angela-portfolio::DATABASE=> \q
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ ls
+Gemfile		config.ru	lib/		public/		views/
+Gemfile.lock	favicon.ico	mockup.png	server.rb
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ subl .
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git add .
+angelaperez ~/desktop/WDI Projects/portfolio on master[+]
+$ git commit -m "added more stuff"
+[master f3e8bff] added more stuff
+ Committer: Angela Perez <angelaperez@Angelas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 4 deletions(-)
+ create mode 100644 lib/seeds
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 601 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Using set buildpack heroku/ruby
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rack
+remote: -----> Using Ruby version: ruby-2.0.0
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+remote:        Using backports 3.6.7
+remote:        Using coderay 1.1.0
+remote:        Using method_source 0.8.2
+remote:        Using multi_json 1.11.2
+remote:        Using pg 0.18.4
+remote:        Using slop 3.6.0
+remote:        Using pry 0.10.3
+remote:        Using rack 1.6.4
+remote:        Using rack-protection 1.5.3
+remote:        Using rack-test 0.6.3
+remote:        Using tilt 2.0.2
+remote:        Using sinatra 1.4.6
+remote:        Using sinatra-contrib 1.4.6
+remote:        Using bundler 1.9.7
+remote:        Bundle complete! 5 Gemfile dependencies, 14 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (0.25s)
+remote:        Cleaning up the bundler cache.
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.0.0'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web
+remote: 
+remote: -----> Compressing... done, 18.6MB
+remote: -----> Launching...
+remote:        Released v12
+remote:        https://angela-portfolio.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy.... done.
+To https://git.heroku.com/angela-portfolio.git
+   8033f27..f3e8bff  master -> master
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git add .
+angelaperez ~/desktop/WDI Projects/portfolio on master[+]
+$ git commit -m "added stuff"
+[master dd6bd1d] added stuff
+ Committer: Angela Perez <angelaperez@Angelas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+), 14 deletions(-)
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ git push heroku master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 347 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Using set buildpack heroku/ruby
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rack
+remote: -----> Using Ruby version: ruby-2.0.0
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+remote:        Using backports 3.6.7
+remote:        Using coderay 1.1.0
+remote:        Using method_source 0.8.2
+remote:        Using multi_json 1.11.2
+remote:        Using pg 0.18.4
+remote:        Using slop 3.6.0
+remote:        Using pry 0.10.3
+remote:        Using rack 1.6.4
+remote:        Using rack-protection 1.5.3
+remote:        Using rack-test 0.6.3
+remote:        Using tilt 2.0.2
+remote:        Using sinatra 1.4.6
+remote:        Using sinatra-contrib 1.4.6
+remote:        Using bundler 1.9.7
+remote:        Bundle complete! 5 Gemfile dependencies, 14 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (0.24s)
+remote:        Cleaning up the bundler cache.
+remote: 
+remote: ###### WARNING:
+remote:        You have not declared a Ruby version in your Gemfile.
+remote:        To set your Ruby version add this line to your Gemfile:
+remote:        ruby '2.0.0'
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web
+remote: 
+remote: -----> Compressing... done, 18.6MB
+remote: -----> Launching...
+remote:        Released v13
+remote:        https://angela-portfolio.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy.... done.
+To https://git.heroku.com/angela-portfolio.git
+   f3e8bff..dd6bd1d  master -> master
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ psql
+psql (9.4.5)
+Type "help" for help.
+
+angelaperez=# \d
+No relations found.
+angelaperez=# \l
+                                           List of databases
+        Name         |    Owner    | Encoding |   Collate   |    Ctype    |      Access privileges      
+---------------------+-------------+----------+-------------+-------------+-----------------------------
+ angelaperez         | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ animals             | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ employees           | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ hogwarts_app        | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ hogwarts_crud       | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ homework            | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ imdb_app            | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ inspire             | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ jedi_db             | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ login_magnum        | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ nba_db              | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ portfolio           | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres            | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ restful_routes      | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ shopping_db         | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0           | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/angelaperez             +
+                     |             |          |             |             | angelaperez=CTc/angelaperez
+ template1           | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/angelaperez             +
+                     |             |          |             |             | angelaperez=CTc/angelaperez
+ test_db             | angelaperez | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+angelaperez=# 
+angelaperez=# \q
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku pg:psql
+---> Connecting to DATABASE_URL
+psql (9.4.5)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+angela-portfolio::DATABASE=> \l
+                                             List of databases
+      Name      |     Owner      | Encoding |   Collate   |    Ctype    |         Access privileges         
+----------------+----------------+----------+-------------+-------------+-----------------------------------
+ d100b5v5jabvk  | muxhaspfjrksrs | UTF8     | en_US.UTF-8 | en_US.UTF-8 | muxhaspfjrksrs=CTc/muxhaspfjrksrs
+ d101rfug2l4c89 | adnlginlqwihpk | UTF8     | en_US.UTF-8 | en_US.UTF-8 | adnlginlqwihpk=CTc/adnlginlqwihpk
+ d107u9sfl442df | zrakbpvgktsyig | UTF8     | en_US.UTF-8 | en_US.UTF-8 | zrakbpvgktsyig=CTc/zrakbpvgktsyig
+ d10g3ca9r4jnku | eismdrxnlbqmny | UTF8     | en_US.UTF-8 | en_US.UTF-8 | eismdrxnlbqmny=CTc/eismdrxnlbqmny
+ d10ts4kdipcaqo | xyozmumqjaauyl | UTF8     | en_US.UTF-8 | en_US.UTF-8 | xyozmumqjaauyl=CTc/xyozmumqjaauyl
+ d118132iinlghf | nxubcwikjivaoe | UTF8     | en_US.UTF-8 | en_US.UTF-8 | nxubcwikjivaoe=CTc/nxubcwikjivaoe
+ d118botjmjl4ru | mzgcxwiusgokey | UTF8     | en_US.UTF-8 | en_US.UTF-8 | mzgcxwiusgokey=CTc/mzgcxwiusgokey
+ d11fgc4n53d7gk | hruvnufgttbkjo | UTF8     | en_US.UTF-8 | en_US.UTF-8 | hruvnufgttbkjo=CTc/hruvnufgttbkjo
+ d11h07knpu8975 | xuokuonzorlenl | UTF8     | en_US.UTF-8 | en_US.UTF-8 | xuokuonzorlenl=CTc/xuokuonzorlenl
+ d122c09mp2pi1r | yiqsvfykzscfox | UTF8     | en_US.UTF-8 | en_US.UTF-8 | yiqsvfykzscfox=CTc/yiqsvfykzscfox
+ d127u548gof84d | edtxviizhlhsse | UTF8     | en_US.UTF-8 | en_US.UTF-8 | edtxviizhlhsse=CTc/edtxviizhlhsse
+ d12cfc1rj42suc | hkmxlvjmpftvqd | UTF8     | en_US.UTF-8 | en_US.UTF-8 | hkmxlvjmpftvqd=CTc/hkmxlvjmpftvqd
+ d12r59ebmqesea | pcsectluuronbe | UTF8     | en_US.UTF-8 | en_US.UTF-8 | pcsectluuronbe=CTc/pcsectluuronbe
+ d13nsqhusfsjf4 | ktsnjmlrjcsivp | UTF8     | en_US.UTF-8 | en_US.UTF-8 | ktsnjmlrjcsivp=CTc/ktsnjmlrjcsivp
+ d13qnf6mqh574d | mxuyyfrpxrnfqp | UTF8     | en_US.UTF-8 | en_US.UTF-8 | mxuyyfrpxrnfqp=CTc/mxuyyfrpxrnfqp
+ d13qo0s9idjls8 | lhmiuaedcvbfwj | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lhmiuaedcvbfwj=CTc/lhmiuaedcvbfwj
+ d13tm6e6s6u2o3 | kovhpdvivcnobg | UTF8     | en_US.UTF-8 | en_US.UTF-8 | kovhpdvivcnobg=CTc/kovhpdvivcnobg
+ d140qbju6dhs2q | lunoyqihmlmnur | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lunoyqihmlmnur=CTc/lunoyqihmlmnur
+ d146916bnu4frk | xcykogijenvuxe | UTF8     | en_US.UTF-8 | en_US.UTF-8 | xcykogijenvuxe=CTc/xcykogijenvuxe
+ d146fl50k2egc1 | tydkpebnvhxdfg | UTF8     | en_US.UTF-8 | en_US.UTF-8 | tydkpebnvhxdfg=CTc/tydkpebnvhxdfg
+ d14isiu3n9urh5 | pbukeumjbjjnzv | UTF8     | en_US.UTF-8 | en_US.UTF-8 | pbukeumjbjjnzv=CTc/pbukeumjbjjnzv
+ d14lc4nah9c70c | fhygsefsufupre | UTF8     | en_US.UTF-8 | en_US.UTF-8 | fhygsefsufupre=CTc/fhygsefsufupre
+ d14rqurtm0ralr | ogwxkheoxqvykv | UTF8     | en_US.UTF-8 | en_US.UTF-8 | ogwxkheoxqvykv=CTc/ogwxkheoxqvykv
+ d14tvjbl5nsj5u | jaazthhefavdor | UTF8     | en_US.UTF-8 | en_US.UTF-8 | jaazthhefavdor=CTc/jaazthhefavdor
+ d14unkenklle8r | ciigfggobncdlq | UTF8     | en_US.UTF-8 | en_US.UTF-8 | ciigfggobncdlq=CTc/ciigfggobncdlq
+ d15368hi4e3kli | juwgvezbijmsuz | UTF8     | en_US.UTF-8 | en_US.UTF-8 | juwgvezbijmsuz=CTc/juwgvezbijmsuz
+ d155eq7fa8ceet | fuxqlmnkxfvcsl | UTF8     | en_US.UTF-8 | en_US.UTF-8 | fuxqlmnkxfvcsl=CTc/fuxqlmnkxfvcsl
+ d159bb3g5aspul | tddhpkepoqtcrn | UTF8     | en_US.UTF-8 | en_US.UTF-8 | tddhpkepoqtcrn=CTc/tddhpkepoqtcrn
+ d15gt920vc4jc6 | xkvxeusdpxntuc | UTF8     | en_US.UTF-8 | en_US.UTF-8 | xkvxeusdpxntuc=CTc/xkvxeusdpxntuc
+ d15h0vmbmc7949 | dmdaxdiakqunjd | UTF8     | en_US.UTF-8 | en_US.UTF-8 | dmdaxdiakqunjd=CTc/dmdaxdiakqunjd
+ d15q5q09gsu09p | ubivmixqqlbmmd | UTF8     | en_US.UTF-8 | en_US.UTF-8 | ubivmixqqlbmmd=CTc/ubivmixqqlbmmd
+ d164o5cjqaudb3 | lnncowshpszfkb | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lnncowshpszfkb=CTc/lnncowshpszfkb
+ d1668l9gdu8214 | zqphfdntteuoba | UTF8     | en_US.UTF-8 | en_US.UTF-8 | zqphfdntteuoba=CTc/zqphfdntteuoba
+ d16laf9fqig7f8 | siyuttvdopsqfv | UTF8     | en_US.UTF-8 | en_US.UTF-8 | siyuttvdopsqfv=CTc/siyuttvdopsqfv
+ d16no6ftl0evcg | kwmbwwlvsadrcq | UTF8     | en_US.UTF-8 | en_US.UTF-8 | kwmbwwlvsadrcq=CTc/kwmbwwlvsadrcq
+ d171to8fdkc8jr | xgpmkmtdcihabe | UTF8     | en_US.UTF-8 | en_US.UTF-8 | xgpmkmtdcihabe=CTc/xgpmkmtdcihabe
+ d1780rccig7grh | qoaxsvfzgqolkk | UTF8     | en_US.UTF-8 | en_US.UTF-8 | qoaxsvfzgqolkk=CTc/qoaxsvfzgqolkk
+ d17gsgko6e169u | lkxqyzmarcjchd | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lkxqyzmarcjchd=CTc/lkxqyzmarcjchd
+ d17kq8kmbc5kv6 | daznqwgmwfagfe | UTF8     | en_US.UTF-8 | en_US.UTF-8 | daznqwgmwfagfe=CTc/daznqwgmwfagfe
+ d17romni9q4ioq | njinhrenklmuvo | UTF8     | en_US.UTF-8 | en_US.UTF-8 | njinhrenklmuvo=CTc/njinhrenklmuvo
+ d17v358av98jd1 | ilfimapttxrvnt | UTF8     | en_US.UTF-8 | en_US.UTF-8 | ilfimapttxrvnt=CTc/ilfimapttxrvnt
+ d180ief77l2kqu | iplkzajlnrgeyq | UTF8     | en_US.UTF-8 | en_US.UTF-8 | iplkzajlnrgeyq=CTc/iplkzajlnrgeyq
+ d184bi9tn9ooe8 | psmjjngjspzbin | UTF8     | en_US.UTF-8 | en_US.UTF-8 | psmjjngjspzbin=CTc/psmjjngjspzbin
+ d193796dvetm34 | lollilykpqgnug | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lollilykpqgnug=CTc/lollilykpqgnug
+ d19nju93gdepuv | wovldydgiyasxw | UTF8     | en_US.UTF-8 | en_US.UTF-8 | wovldydgiyasxw=CTc/wovldydgiyasxw
+ d1aai92e5ejos4 | qawyvmdsbpbddc | UTF8     | en_US.UTF-8 | en_US.UTF-8 | qawyvmdsbpbddc=CTc/qawyvmdsbpbddc
+ d1ab5qja9mgc70 | gkjkkxixhoctjd | UTF8     | en_US.UTF-8 | en_US.UTF-8 | gkjkkxixhoctjd=CTc/gkjkkxixhoctjd
+angela-portfolio::DATABASE=> \c portfolio
+FATAL:  database "portfolio" does not exist
+Previous connection kept
+angela-portfolio::DATABASE=> \d
+                    List of relations
+ Schema |        Name         |   Type   |     Owner      
+--------+---------------------+----------+----------------
+ public | contact_data        | table    | auomwwwhxckskt
+ public | contact_data_id_seq | sequence | auomwwwhxckskt
+(2 rows)
+
+angela-portfolio::DATABASE=> SELECT * FROM contact_data;
+ id |  name  |            email             |                   message                   
+----+--------+------------------------------+---------------------------------------------
+  1 | Bryan  | bryan.mytko@generalassemb.ly | This is a test message from the seeded data
+  2 | Angela | angela@angela.com            |  yo
+(2 rows)
+
+angela-portfolio::DATABASE=> \q
+angelaperez ~/desktop/WDI Projects/portfolio on master
+$ heroku pg:psql --app angela-portfolio
+---> Connecting to DATABASE_URL
+psql (9.4.5)
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+angela-portfolio::DATABASE=> SELECT * FROM contact_data
+angela-portfolio::DATABASE-> ;
+ id |    name     |            email             |                   message                   
+----+-------------+------------------------------+---------------------------------------------
+  1 | Bryan       | bryan.mytko@generalassemb.ly | This is a test message from the seeded data
+  2 | Angela      | angela@angela.com            |  yo
+  3 | poops mcgee | poops@gmail.com              | hee u stink\r                              +
+    |             |                              | \r                                         +
+    |             |                              | :3c
+(3 rows)
+
+angela-portfolio::DATABASE=> 
